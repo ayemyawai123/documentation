@@ -31,7 +31,7 @@
 
   <!-- Template Main CSS File -->
   <link href="{{asset('css/style.css')}}" rel="stylesheet" />
-
+  {{-- <link href="{{asset('css/app.css')}}" rel="stylesheet" /> --}}
   <!-- =======================================================
   * Template Name: iPortfolio - v1.4.0
   * Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
@@ -93,7 +93,7 @@
     <p class="header-letter-second">
         <a href="#"> チュートリアル </a>
     </p>
-    <div class="dropdown" style="margin:28px 45px;color:white;">
+    <div class="dropdown" style="margin:24px 45px;color:black;">
         <p class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
 {{Auth()->user()->name}}
@@ -114,44 +114,44 @@
                     <!-- <label>準備編</label> -->
                     <li>
 
-                        <label style="padding:{{ Request::segment(1) == 'php'? '0px 0px 0px 27px' : ''}}"
+                        <label class="testlabel" id="first" style="padding:{{ (Request::segment(1) == 'php_basics1' || Request::segment(1) == 'php_basics2' || Request::segment(1) == 'php_basics3') ? '0px 0px 0px 27px' : ''}}"
                             for="menu-1">
-                            <a href="{{url('/php')}}">php基 </a>
-                            <input type="checkbox" checked id="menu-1" /></label>
-                        <ol style="display:{{ Request::segment(1) == 'php' ? 'block' : 'none'}}">
-                            <li style="background-color:#D1D0CE;"><a href="#phpsection1" style="margin-left: 30px;">1.
-                                    テスト</a></li>
-                            <li style="background-color:#D1D0CE;"><a href="#phpsection2" style="margin-left: 30px;">2.
-                                    テスト</a></li>
-                            <li style="background-color:#D1D0CE;"><a href="#phpsection3" style="margin-left: 30px;">3.
-                                    テスト</a></li>
-                        </ol>
-                    </li>
-                    <li>
-
-                        <label style="padding:{{ Request::segment(1) == 'laravel'? '0px 0px 0px 27px' : ''}}"
-                            for="menu-2">
-                            <a href="{{url('/laravel')}}">Laravel基礎</a>
-                            <input type="checkbox" checked id="menu-2" /></label>
-                        <ol style="display:{{ Request::segment(1) == 'laravel'  ? 'block' : 'none'}}" class="TableBody">
-                            <li style="background-color:#D1D0CE;"><a href="#laravelsection1"
+                           PHP基礎
+                            <input type="checkbox" checked id="menu-1"  onclick="togglediv('first')"/></label>
+                        <ol id="first" style="display:{{ (Request::segment(1) == 'php_basics1' || Request::segment(1) == 'php_basics2' || Request::segment(1) == 'php_basics3')  ? 'block' : 'none'}}" class="TableBody">
+                            <li style="background-color:#D1D0CE;"><a href="{{url('/php_basics1')}}"
                                     style="margin-left: 20px;">1.テスト</a></li>
-                            <li style="background-color:#D1D0CE;"><a href="#laravelsection2"
+                            <li style="background-color:#D1D0CE;"><a href="{{url('/php_basics2')}}"
                                     style="margin-left: 20px;">2.テスト</a></li>
-                            <li style="background-color:#D1D0CE;"><a href="#laravelsection3"
+                            <li style="background-color:#D1D0CE;"><a href="{{url('/php_basics3')}}"
                                     style="margin-left: 20px;">3.テスト</a></li>
                         </ol>
                     </li>
                     <li>
-                        <label style="padding:{{ Request::segment(1) == 'aws'? '0px 0px 0px 27px' : ''}}" for="menu-3">
-                            <a href="{{url('aws')}}"> AWS基礎(サービス公開)</a></label>
-                        <input type="checkbox" checked id="menu-3" />
-                        <ol style="display:{{ Request::segment(1) == 'aws'  ? 'block' : 'none'}}">
-                            <li style="background-color:#D1D0CE;"><a href="#awssection1"
+
+                        <label class="testlabel" id="second" style="padding:{{ (Request::segment(1) == 'laravel_basics1' || Request::segment(1) == 'laravel_basics2' || Request::segment(1) == 'laravel_basics3') ? '0px 0px 0px 27px' : ''}}"
+                            for="menu-2">
+                           Laravel基礎
+                            <input type="checkbox" checked id="menu-2"  onclick="togglediv('second')"/></label>
+                        <ol id="second" style="display:{{ (Request::segment(1) == 'laravel_basics1' || Request::segment(1) == 'laravel_basics2' || Request::segment(1) == 'laravel_basics3')  ? 'block' : 'none'}}" class="TableBody">
+                            <li style="background-color:#D1D0CE;"><a href="{{url('/laravel_basics1')}}"
                                     style="margin-left: 20px;">1.テスト</a></li>
-                            <li style="background-color:#D1D0CE;"><a href="#awssection2"
+                            <li style="background-color:#D1D0CE;"><a href="{{url('/laravel_basics2')}}"
                                     style="margin-left: 20px;">2.テスト</a></li>
-                            <li style="background-color:#D1D0CE;"><a href="#awssection3"
+                            <li style="background-color:#D1D0CE;"><a href="{{url('/laravel_basics3')}}"
+                                    style="margin-left: 20px;">3.テスト</a></li>
+                        </ol>
+                    </li>
+                    <li>
+                        <label class="testlabel"  id="third" style="padding:{{ Request::segment(1) == 'aws_basics1' || Request::segment(1) == 'aws_basics2' || Request::segment(1) == 'aws_basics3' ? '0px 0px 0px 27px' : ''}}" for="menu-3">
+                            AWS基礎(サービス公開)</label>
+                        <input type="checkbox" checked id="menu-3"  onclick="togglediv('third')"/>
+                        <ol  id="third" style="display:{{ Request::segment(1) == 'aws_basics1' || Request::segment(1) == 'aws_basics2' || Request::segment(1) == 'aws_basics3'  ? 'block' : 'none'}}"  class="TableBody">
+                            <li style="background-color:#D1D0CE;"><a href="{{url('aws_basics1')}}"
+                                    style="margin-left: 20px;">1.テスト</a></li>
+                            <li style="background-color:#D1D0CE;"><a href="{{url('aws_basics2')}}"
+                                    style="margin-left: 20px;">2.テスト</a></li>
+                            <li style="background-color:#D1D0CE;"><a href="{{url('aws_basics3')}}"
                                     style="margin-left: 20px;">3.テスト</a></li>
                         </ol>
                     </li>
@@ -162,11 +162,75 @@
 
        @yield('content')
 
-        <div class="push"></div>
-    <footer></footer>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="copyright">
+                &copy; Copyright <strong><span>iPortfolio</span></strong>
+            </div>
+            <div class="credits">
+                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            </div>
+        </div>
+    </footer>
+
+
     </div>
 
 </body>
+<script>
+
+
+
+
+    function togglediv(id) {
+      document.querySelectorAll(".TableBody").forEach(function(ol) {
+
+
+        if (ol.id == id) {
+
+         //document.getElementById(id).classList.add('label2');
+          //setTimeout(function(){
+          // Toggle specified DIV
+        // ol.li.style.padding="0px 0px 0px 30px";
+            //    ol.style.display = ol.style.display == "none" ? "block" : "none";
+            ol.style.display="block";
+       // document.getElementById("test").style.backgroundColor  = "#ff0000";
+        //}, 300);
+       // exist();
+        }
+      else {
+
+          // Hide other DIVs
+
+
+          ol.style.display = "none";
+       //   document.getElementById(ol.id).style.padding = "0px 0px 0px 5px";
+        }
+      });
+
+      document.querySelectorAll(".testlabel").forEach(function(label) {
+         /* alert(label.id);
+        alert(id);  */
+        if (label.id == id) {
+          //alert('same');
+         // label.style.backgroundColor="white";
+
+          label.style.padding="0px 0px 0px 27px";
+
+        }
+        else{
+        //  alert('diff');
+
+       //label.style.backgroundColor="#ebecf0";
+        label.style.padding = "0px 0px 0px 0px";
+
+        }
+
+     });
+    }
+
+        </script>
   <!-- ======= Footer ======= -->
   {{--  --}}<!-- End  Footer -->
 

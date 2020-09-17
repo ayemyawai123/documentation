@@ -6,7 +6,7 @@
         <section class="laravelsection">
             <div class="container">
                 <div>
-                    <h2> Laravel基礎 </h2>
+                    <h2> 1.テスト(Laravel基礎 )</h2>
                     <p style="word-spacing: 10px;">
                         Welcome to the Chainer tutorial.
 
@@ -34,12 +34,35 @@
                         If you can write the code only in the browser, execute it, and check the result, you do not need to
                         build the environment on your computer to execute the sample code used for explanation and check the
                         result.
+                        Google account (If you do not have one, please create one here: Google account creation )
 
+                        Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                        Chrome and Firefox.)
+                        Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                            in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                            the following on a browser and is widely used in the field of data analysis, research, and
+                            education.
+
+                          Add description such as notes and explanations using markup language for writing sentences
+                            called Markdown
+
+                            Colab can use GPU for free, but its runtime will disappear in up to 12 hours , so you will need
+                            to prepare a separate environment for long-running processing. At the beginning of learning,
+                            most of the processing is completed in a few minutes to a few hours, so there is no need to
+                            worry, but if you want to use it in earnest, use a paid cloud service to prepare the
+                            environment. Let's do it.
+                            Add description such as notes and explanations using markup language for writing sentences
+                            called Markdown
+                            Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                            in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                            the following on a browser and is widely used in the field of data analysis, research, and
+                            education.
+                            The basic usage is explained below.
                         <strong>Google Colaboratory </strong>.
                     </p>
                 </div>
 
-                <div id="laravelsection1">
+                {{-- <div id="laravelsection1">
                     <h4> 1.テスト </h4>
                     <p>Google account (If you do not have one, please create one here: Google account creation )
 
@@ -48,9 +71,9 @@
 
 
                     </p>
-                </div>
+                </div> --}}
 
-                <div id="laravelsection2">
+                {{-- <div id="laravelsection2">
                     <div>
                         <h4> 2.テスト </h4>
                         <p>Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
@@ -82,25 +105,16 @@
 
                          </p>
                     </div>
-                </div>
+                </div> --}}
+
             </div>
+            <div class="container page">
+                {{--  <a href="{{ url('/aws_basics1') }}" class="btn">Previous</a> --}}
+                 <a href="{{ url('/laravel_basics2') }}" class="btn float-right">Next</a>
+             </div>
         </section>
 
-        <div class="container page">
-            <a href="{{ url('/php') }}" class="btn prev">Previous</a>
-            <a href="{{ url('/aws') }}" class="btn float-right">Next</a>
-        </div>
     </main>
-    <footer id="detail-footer">
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>iPortfolio</span></strong>
-            </div>
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer>
 @endsection
 
 

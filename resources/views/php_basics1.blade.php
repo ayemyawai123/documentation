@@ -4,11 +4,39 @@
         <section class="phpsection">
             <div class="container">
                 <div>
-                    <h2> php基 </h2>
+                    <h2> 1.テスト(php基) </h2>
                     <p style="word-spacing: 10px;">
                         Welcome to the Chainer tutorial.
 
                         This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+
+
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and
+                        This tutorial is an online learning material for undergraduate students and those who want to
+                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
                         understand how and how to use machine learning and
                         <strong>deep learning </strong>.
 
@@ -29,6 +57,18 @@
 
                         Another feature of this tutorial is that the code that appears in the material can be executed on
                         the browser as it is by using the service called <strong>Google Colaboratory</strong> .
+                        Another feature of this tutorial is that the code that appears in the material can be executed on
+                        the browser as it is by using the service called <strong>Google Colaboratory</strong> .
+                        Another feature of this tutorial is that the code that appears in the material can be executed on
+                        the browser as it is by using the service called <strong>Google Colaboratory</strong> .
+                        Another feature of this tutorial is that the code that appears in the material can be executed on
+                        the browser as it is by using the service called <strong>Google Colaboratory</strong> .
+                        Another feature of this tutorial is that the code that appears in the material can be executed on
+                        the browser as it is by using the service called <strong>Google Colaboratory</strong> .
+                        Another feature of this tutorial is that the code that appears in the material can be executed on
+                        the browser as it is by using the service called <strong>Google Colaboratory</strong> .
+                        Another feature of this tutorial is that the code that appears in the material can be executed on
+                        the browser as it is by using the service called <strong>Google Colaboratory</strong> .
 
                         If you can write the code only in the browser, execute it, and check the result, you do not need to
                         build the environment on your computer to execute the sample code used for explanation and check the
@@ -39,7 +79,7 @@
                     </p>
                 </div>
 
-                <div id="phpsection1">
+                {{-- <div id="phpsection1">
                     <h4> 1.テスト </h4>
                     <p>Google account (If you do not have one, please create one here: Google account creation )
 
@@ -47,9 +87,9 @@
                         Chrome and Firefox.)
 
                     </p>
-                </div>
+                </div> --}}
 
-                <div id="phpsection2">
+                {{-- <div id="phpsection2">
                     <div>
                         <h4> 2.テスト </h4>
                         <p>Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
@@ -69,8 +109,8 @@
 
                             The basic usage is explained below.</p>
                     </div>
-                </div>
-                <div id="phpsection3">
+                </div> --}}
+                {{-- <div id="phpsection3">
                     <h4> 3.テスト </h4>
                     <p>The Jupyter Notebook on Colab is henceforth referred to simply as the notebook .
 
@@ -98,17 +138,32 @@
                         Notebooks can have blocks called cells . Immediately after creating a new notebook, there is only one blank cell. You can select a cell by clicking anywhere inside the cell.
 
                         There are two types of cells : code cells and text cells . Code cells are cells for writing and executing Python code, and text cells are cells for writing text in Markdown format.
+                        Let's take a closer look at each cell type Let's take a closer look at each cell type
+                        Let's take a closer look at each cell type.
+                        There are two types of cells : code cells and text cells . Code cells are cells for writing and executing Python code, and text cells are cells for writing text in Markdown format.
+                        Let's take a closer look at each cell type Let's take a closer look at each cell type
+                        Let's take a closer look at each cell type.
 
-                        Let's take a closer look at each cell type.</p>
+                    cccccccccccccccccccccccccccccccccc
+                    llllllllllllllllllllllllllllllll
+                    cccccccccccccccccccccccccccccccccc
+                    llllllllllllllllllllllllllllllll
+                    cccccccccccccccccccccccccccccccccc
+                    llllllllllllllllllllllllllllllll
 
-                  </div>
+
+                </p>
+
+                  </div> --}}
+
             </div>
+            <div class="container page">
+                {{--   <a href="{{ url('/aws_basics1') }}" class="btn">Previous</a> --}}
+                  <a href="{{ url('/php_basics2') }}" class="btn float-right">Next</a>
+              </div>
         </section>
 
-        <div class="container page">
-           {{--  <a href="{{ url('/list') }}" class="btn prev">Previous</a>
-            <a href="{{ url('/laravel') }}" class="btn float-right">Next</a> --}}
-        </div>
+
     </main>
 
 @endsection
