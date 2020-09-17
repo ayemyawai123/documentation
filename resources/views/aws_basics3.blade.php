@@ -6,7 +6,7 @@
         <section class="awssection">
             <div class="container">
                 <div>
-                    <h2> AWS基礎(サービス公開) </h2>
+                    <h2> 3.テスト(AWS基礎(サービス公開) </h2>
                     <p style="word-spacing: 10px;">
                         Welcome to the Chainer tutorial.
 
@@ -39,7 +39,7 @@
                     </p>
                 </div>
 
-                <div id="awssection1">
+                {{-- <div id="awssection1">
                     <h4> 1.テスト </h4>
                     <p>Google account (If you do not have one, please create one here: Google account creation )
 
@@ -83,24 +83,17 @@
 
                         Let's take a closer look at each cell type.</p>
 
-                </div>
+                </div> --}}
+
+            </div>
+            <div class="container page">
+                <a href="{{ url('/aws_basics2') }}" class="btn">Previous</a>
+          {{--       <a href="{{ url('/detail') }}" class="btn float-right">Next</a>
+           --}}
+            </div>
         </section>
 
-        <div class="container page">
-            <a href="{{ url('/laravel') }}" class="btn prev">Previous</a>
-            <!-- <a href="{{ url('/detail') }}" class="btn float-right">Next</a> -->
-        </div>
     </main>
-    <footer id="detail-footer">
-        <div class="container">
-            <div class="copyright">
-                &copy; Copyright <strong><span>iPortfolio</span></strong>
-            </div>
-            <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-            </div>
-        </div>
-    </footer>
 @endsection
 
 

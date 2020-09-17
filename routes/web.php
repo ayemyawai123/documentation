@@ -19,13 +19,39 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/logout', 'Auth\LoginController@logout')->name('logout');
-Route::get('/php', function () {
-    return view('php-tutorials');
-})->middleware('auth');
-Route::get('/laravel', function () {
-    return view('laravel-tutorials');
+
+Route::get('/php_basics1', function () {
+    return view('php_basics1');
 })->middleware('auth');
 
-Route::get('/aws', function () {
-    return view('aws-tutorials');
+Route::get('/php_basics2', function () {
+    return view('php_basics2');
+})->middleware('auth');
+
+Route::get('/php_basics3', function () {
+    return view('php_basics3');
+})->middleware('auth');
+
+Route::get('/laravel_basics1', function () {
+    return view('laravel_basics1');
+})->middleware('auth');
+
+Route::get('/laravel_basics2', function () {
+    return view('laravel_basics2');
+})->middleware('auth');
+
+Route::get('/laravel_basics3', function () {
+    return view('laravel_basics3');
+})->middleware('auth');
+
+Route::get('/aws_basics1', function () {
+    return view('aws_basics1');
+})->middleware('auth');
+
+Route::get('/aws_basics2', function () {
+    return view('aws_basics2');
+})->middleware('auth');
+
+Route::get('/aws_basics3', function () {
+    return view('aws_basics3');
 })->middleware('auth');
