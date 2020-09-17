@@ -41,11 +41,11 @@ body {
 
   }
 
-  html,body{
+  /* html,body{
     height:100%;
     background:#ffaaaa;
     margin:0;
-}
+} */
 header{
     background: #2f3d4c;
     overflow: hidden;
@@ -75,7 +75,7 @@ header{
 .container-mid{
     margin-left: 192px;
 }
-.push,footer{
+/* .push,footer{
     height: 55px;
 }
 footer {
@@ -90,7 +90,7 @@ footer {
     z-index: 100;
     margin-top:20px;
     left: -200px;
-}
+} */
 
 .faq-logo {
     font-size: 25px;
@@ -1195,31 +1195,111 @@ section {
   }
 }
 
+.section1, .section2, .section3{
+  padding-top: 70px;
+}
+
+.card1,.card2,.card3{
+  /* width: 48rem; */
+  height: 20rem;
+  border-radius: 15px;
+}
+
+a{
+  color:black;
+}
+a:visited{
+  text-decoration: none;
+  color: #464746;
+}
+a:hover{
+  text-decoration: none;
+  color: grey;
+}
+.header-letter-first a, .header-letter-second a{
+  color:white;
+}
+/* ol { counter-reset: item }
+li{ display: block; padding-top: 15px; }
+li:before { content: counters(item, ".") ". "; counter-increment: item } */
+
+.form-inline span{
+  background-color: white;
+  color:red;
+  border-style: solid;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
+  border-color: red;
+
+}
+/* .page{
+  margin-left: 30rem;
+} */
+
+.page .btn{
+  background-color: gainsboro;
+}
+.prev{
+  margin-left:10rem;
+}
+.logout{
+  background-color:#ddd;
+}
+.phpsection, .laravelsection, .awssection{
+  text-align: justify;
+  width: 900px;
+  height: 67.8rem;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  padding: 15px;
-  color: #f4f6fd;
-  font-size: 14px;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 300px;
-  z-index: 9999;
-  background: #040b14;
-}
+  /*  padding: 15px;
+   color: #f4f6fd;
+   font-size: 14px;
+   position:static;
+   left: 0;
+   bottom: 0;
+   width: 1550px;
+   z-index: 9999; */
+   padding-top:30px;
+   margin-top:100px;
+   /* margin-bottom: 200px; */
+   height:110px;
+   background-color:#789797;
+   /* background: -webkit-linear-gradient(left, #000717, #391128); */
+ }
 
-#footer .copyright {
+#detail-footer {
+  /*  padding: 15px;
+   color: #f4f6fd;
+   font-size: 14px;
+   position:static;
+   left: 0;
+   bottom: 0;
+   width: 1550px;
+   z-index: 9999; */
+   padding-top:30px;
+   margin-top:100px;
+   height:110px;
+   background-color:#789797;
+   /* background: -webkit-linear-gradient(left, #000717, #391128); */
+ }
+
+#footer .copyright, #detail-footer .copyright {
   text-align: center;
 }
 
-#footer .credits {
+#footer .credits, #detail-footer .credits {
   padding-top: 5px;
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
 }
+
 
 @media (max-width: 1199px) {
   #footer {
