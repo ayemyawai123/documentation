@@ -30,7 +30,8 @@
 
 
   <!-- Template Main CSS File -->
-  <link href="{{asset('css/style.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/style_master.css')}}" rel="stylesheet" />
+  <link href="{{asset('css/list.css')}}" rel="stylesheet" />
   {{-- <link href="{{asset('css/app.css')}}" rel="stylesheet" /> --}}
   <!-- =======================================================
   * Template Name: iPortfolio - v1.4.0
@@ -93,7 +94,7 @@
     <p class="header-letter-second">
         <a href="#"> チュートリアル </a>
     </p>
-    <div class="dropdown" style="margin:24px 45px;color:black;">
+    <div class="dropdown" style="margin:24px 45px;color:white;">
         <p class="dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
             aria-expanded="false">
 {{Auth()->user()->name}}
@@ -162,7 +163,8 @@
 
        @yield('content')
 
-
+     {{--   <div id="push"></div>
+       <footer></footer> --}}
     <footer id="footer">
         <div class="container">
             <div class="copyright">
@@ -243,11 +245,6 @@
   <script src="{{asset('vendor/php-email-form/validate.js')}}"></script>
   <script src="{{asset('vendor/waypoints/jquery.waypoints.min.js')}}"></script>
   <script src="{{asset('vendor/counterup/counterup.min.js')}}"></script>
-
-
-
-
-
   <script src="{{asset('vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
   <script src="{{asset('vendor/venobox/venobox.min.js')}}"></script>
   <script src="{{asset('vendor/typed.js/typed.min.js')}}"></script>

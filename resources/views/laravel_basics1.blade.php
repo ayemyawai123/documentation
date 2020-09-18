@@ -43,6 +43,42 @@
                             the following on a browser and is widely used in the field of data analysis, research, and
                             education.
 
+                            Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                            Chrome and Firefox.)
+                            Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                                in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                                the following on a browser and is widely used in the field of data analysis, research, and
+                                education.
+                                Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                                Chrome and Firefox.)
+                                Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                                    in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                                    the following on a browser and is widely used in the field of data analysis, research, and
+                                    education.
+                                    Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                            Chrome and Firefox.)
+                            Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                                in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                                the following on a browser and is widely used in the field of data analysis, research, and
+                                education.
+                                Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                                Chrome and Firefox.)
+                                Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                                    in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                                    the following on a browser and is widely used in the field of data analysis, research, and
+                                    education.
+                                    Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                            Chrome and Firefox.)
+                            Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                                in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                                the following on a browser and is widely used in the field of data analysis, research, and
+                                education.
+                                Web browser (Google Colaboratory works on most major browsers. It has been tested on PC versions of
+                                Chrome and Firefox.)
+                                Google Colaboratory (Colab) is a Google web service that provides a Jupyter Notebook environment
+                                    in the cloud . Jupyter Notebook is an open source web application that allows you to mainly do
+                                    the following on a browser and is widely used in the field of data analysis, research, and
+                                    education.
                           Add description such as notes and explanations using markup language for writing sentences
                             called Markdown
 

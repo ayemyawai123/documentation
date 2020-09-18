@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 html,body{
-    height:100%;
+   /*  height:100%; */
     font-family: "Open Sans", sans-serif;
     color: #272829;
     margin:0;
@@ -76,17 +76,19 @@ header{
 
 }
 footer {
-    position: absolute;
+    position: relative;
     right: 0;
     bottom: 0;
     height: 70px;
     overflow: hidden;
     color: #ffffff;
-    width: 134%;
+
+    width: 100%;
     background: #2f3d4c;
     z-index: 100;
-    left: -200px;
-} */
+   /*  left: -200px;
+    width: 134%; */
+}
 
 .faq-logo {
     font-size: 25px;
@@ -173,7 +175,7 @@ footer {
     background-color:silver;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-        margin-bottom:100px;
+        margin-bottom:40px;
 }
 
 a {
@@ -1278,9 +1280,9 @@ li:before { content: counters(item, ".") ". "; counter-increment: item } */
   color: #f4f6fd;
   font-size: 14px;
   position: absolute;
-  left: -203px;
+/*   left: -203px; */
   bottom: 0;
-  width: 134.5%;
+/*   width: 134.5%; */
   z-index: 100;
   background-color:#789797;
   padding-top:30px;
@@ -1328,3 +1330,4 @@ li:before { content: counters(item, ".") ". "; counter-increment: item } */
     padding-right: 20px 15px;
   }
 }
+

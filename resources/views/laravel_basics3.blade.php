@@ -7,30 +7,6 @@
                     <h2> 3.テスト(Laravel基礎 ) </h2>
                     <p style="word-spacing: 10px;">
                         Welcome to the Chainer tutorial.
-
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-
-
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
-                        This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and This tutorial is an online learning material for undergraduate students and those who want to
-                        understand how and how to use machine learning and
                         This tutorial is an online learning material for undergraduate students and those who want to
                         understand how and how to use machine learning and
                         This tutorial is an online learning material for undergraduate students and those who want to

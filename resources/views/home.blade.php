@@ -8,7 +8,6 @@
     </section>
 
 
-  </main>    <div class="push"></div>
-  <footer></footer>
+  </main>
   @endsection
 

@@ -44,10 +44,10 @@
   </style>
 <div class="headerr">
 <img style="margin-left:90px;width:12%;" src="{{asset('images/chainer_red_h.png')}}">
-  <p class="header-letter-first" > 
+  <p class="header-letter-first" >
     <a href="{{route('login')}}" >Login</a>
   </p>
-  <p class="header-letter-second" > 
+  <p class="header-letter-second" >
     <a href="{{route('register')}}" >Register</a>
   </p>
   <!-- <div class="dropdown" style="margin:28px 45px;color:white;">
@@ -159,15 +159,18 @@
         </div>
     </div>
 </div>
-    <footer id="footer" style="margin-top:250px;">
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>iPortfolio</span></strong>
-        </div>
-        <div class="credits">
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
+{{-- <div id="push"></div>
+<footer></footer> --}}
+<footer id="footer" >
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>iPortfolio</span></strong>
       </div>
-    </footer>
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      </div>
+    </div>
+  </footer>
     </body>
+
 </html>

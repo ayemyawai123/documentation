@@ -1,0 +1,55 @@
+.section1, .section2, .section3{
+    padding-top: 70px;
+  }
+
+  .card1,.card2,.card3{
+    /* width: 48rem; */
+    height: 20rem;
+    border-radius: 15px;
+  }
+
+  a{
+    color:black;
+  }
+  a:visited{
+    text-decoration: none;
+    color: #464746;
+  }
+  a:hover{
+    text-decoration: none;
+    color: grey;
+  }
+  .header-letter-first a, .header-letter-second a{
+    color:white;
+  }
+  /* ol { counter-reset: item }
+  li{ display: block; padding-top: 15px; }
+  li:before { content: counters(item, ".") ". "; counter-increment: item } */
+
+  .form-inline span{
+    background-color: white;
+    color:red;
+    border-style: solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 50px;
+    border-color: red;
+
+  }
+  /* .page{
+    margin-left: 30rem;
+  } */
+
+  .page .btn{
+    background-color: gainsboro;
+  }
+  .prev{
+    margin-left:10rem;
+  }
+  .logout{
+    background-color:#ddd;
+  }
+   .phpsection, .laravelsection, .awssection{
+    text-align: justify;
+
+  }
